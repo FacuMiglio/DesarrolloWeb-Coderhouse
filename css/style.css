@@ -6,12 +6,43 @@
     font-color: #ffffff;
 }
 
-h3 {
-    color: #ffffff;
-}
-h4 {
-    color: #000000;
-}
+
 li {
     float: left;
 }
+
+body {
+    background: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card {
+   height:100%;
+}
+  
+.carousel img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.featurette-divider {
+    margin: 20px; /* Space out the Bootstrap <hr> more */
+  }
+
+  .icon-img {
+    align-items: center;
+    width: 75%;
+    height: auto;
+  }
+
+  .logo-img {
+    width: 100%;
+    height: auto;
+  }
